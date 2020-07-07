@@ -8,4 +8,9 @@ class Airline < ApplicationRecord
     # slug https://medium.com/@hartaniyassir/creating-slug-urls-in-rails-without-gems-c693e0eeec8a
     # parameterize https://apidock.com/rails/String/parameterize
   end
+
+  def avg_score
+    reviews.average(:score).round.to_f
+    # average https://apidock.com/rails/ActiveRecord/Calculations/average
+  end
 end
