@@ -4,6 +4,7 @@ const App = () => {
   return (
   <switch>
     <Route exact path="/" component={Airlines}/>
+    <Route exact path="/airlines/:slug" component={Airlines}/>
   </switch>)
 }
 
