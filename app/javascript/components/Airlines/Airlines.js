@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useState }from 'react'
 
 const Airlines = () => {
-  return <div>This is the Airlines#index view for app.</div>
+  const [airlines, setAirlines] = useState([])
+  return (
+    <div>This is the Airlines#index view for app.</div>
+  )
 }
 
 export default Airlines
