@@ -8,7 +8,8 @@ const App = () => {
   <switch>
     <Route exact path="/" component={Airlines}/>
     <Route exact path="/airlines/:slug" component={Airlines}/>
-  </switch>)
+  </switch>
+  )
 }
 
 export default App
