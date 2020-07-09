@@ -1,8 +1,9 @@
-## WorldFlights
+## Asia_BudgetFlights
 #### A flight reviews app built with Ruby on Rails and React.js
 
 ---
-
+![Home](https://i.imgur.com/mIxmPBW.png)
+---
 Some of the features of this app include:
 
 * Ruby version: `2.6.3`

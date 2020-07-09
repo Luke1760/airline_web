@@ -8,7 +8,7 @@ const Card = styled.div`
   text-align: center;
 `
 const AirlineLogo = styled.div`
-  width: 50px;
+  width: auto;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
