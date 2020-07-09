@@ -5,28 +5,36 @@
 
 Airline.create([
   { 
-    name: "China Airlines",
-    image_url: "https://open-flights.s3.amazonaws.com/China-Airlines.png"
-  }, 
-  { 
-    name: "Eva Air",
-    image_url: "https://open-flights.s3.amazonaws.com/EVA-Air.png"
+    name: "Tigerair Taiwan",
+    image_url: "https://open-flights.s3.amazonaws.com/Tigerair-Taiwan.png" 
   },
   { 
-    name: "Cathay Pacific",
-    image_url: "https://open-flights.s3.amazonaws.com/Cathay-Pacific.png" 
+    name: "Vanilla Air",
+    image_url: "https://open-flights.s3.amazonaws.com/Vanilla-Air.png" 
+  },
+  { 
+    name: "Eastar Jet",
+    image_url: "https://open-flights.s3.amazonaws.com/Eastar-Jet.png" 
   }, 
   { 
-    name: "Singapore Airlines",
-    image_url: "https://open-flights.s3.amazonaws.com/Singapore-Airlines.png" 
+    name: "Air Busan",
+    image_url: "https://open-flights.s3.amazonaws.com/Air-Busan.png" 
   }, 
   { 
-    name: "Tigerair-Taiwan",
-    image_url: "https://open-flights.s3.amazonaws.com/Tigerair-Taiwan.png" 
+    name: "9 Air",
+    image_url: "https://open-flights.s3.amazonaws.com/9-Air.png"
   }, 
   { 
-    name: "American Airlines",
-    image_url: "https://open-flights.s3.amazonaws.com/American-Airlines.png" 
+    name: "Spring Airlines",
+    image_url: "https://open-flights.s3.amazonaws.com/Spring-Airlines.png"
+  },
+  { 
+    name: "Jeju Air",
+    image_url: "https://open-flights.s3.amazonaws.com/Jeju-Air.png" 
+  },
+  { 
+    name: "HK Express",
+    image_url: "https://open-flights.s3.amazonaws.com/HK-Express.png" 
   }
 ])
 
