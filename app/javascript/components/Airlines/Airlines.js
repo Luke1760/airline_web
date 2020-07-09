@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Fragment }from 'react'
+import React, { useState, useEffect}from 'react'
 import axios from 'axios'
 
 const Airlines = () => {
@@ -20,10 +20,15 @@ const Airlines = () => {
   })
 
   return (
-    <Fragment>
-    <div>This is the Airlines#index view for app.</div>
-    <li>list</li>
-    </Fragment>
+    <div className="home">
+      <div className="header">
+        <h1>WorldFlights</h1>
+        <div className="subheader">Honest, unbiased airline reviews.</div>
+      </div>
+      <div className="grid">
+        <ul>{list}</ul>
+      </div>
+    </div>
   )
 }
 
