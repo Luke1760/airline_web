@@ -8,6 +8,7 @@ class Airline < ApplicationRecord
   end
 
   def avg_score
+    return 0 unless reviews.count.positive?
     reviews.average(:score).round.to_f
   end
 end
