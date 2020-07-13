@@ -51,6 +51,7 @@ module  Api
 
       private
       # Used For compound documents with fast_jsonapi
+      # %i: Non-interpolated Array of symbols, separated by whitespace
       def options
         @options ||= {include: %i[reviews]}
       end
