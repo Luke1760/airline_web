@@ -3,6 +3,7 @@
 
 ---
 ![Home](https://i.imgur.com/mIxmPBW.png)
+
 ---
 Some of the features of this app include:
 
